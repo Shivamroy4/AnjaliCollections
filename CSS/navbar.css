@@ -17,9 +17,9 @@ logo {
 
 nav ul {
     text-align: center;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    background-image: -webkit-gradient(radial, center center, 0, center center, 286, color-stop(0, rgba(255,161,239,1)), color-stop(80, rgba(255,59,144,1)));
     width: 100%;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 25px rgba(255, 20, 147, 0.8), inset 0 0 1px rgba(255, 255, 255, 0.6);
     display: inline-block;
     
     
@@ -31,16 +31,21 @@ nav ul li {
 
 nav ul li a {
     padding: 20px;
-    font-family: -apple-system, Helvetica, Arial, sans-serif;
-    color: rgba(0, 0, 0, 0.5);
+    font-family: 'PT Sans', sans-serif;
+    color: rgba(0, 0, 0, 1);
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
-    font-size: 25px;
+    font-size: 17px;
+    
     text-decoration: none;
     display: block;
+    padding: 14px 40px 14px;
 }
 
 nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
     background: rgba(255, 255, 255, 0.1);
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 1);
+    
+    font-weight: bold;
+    
 }
