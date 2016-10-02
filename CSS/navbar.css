@@ -1,5 +1,5 @@
 nav {
-    max-width: 1060px;
+    max-width: 800px;
     mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
     margin: 0 auto;
     padding: 50px 0;
@@ -30,7 +30,7 @@ nav ul li {
 }
 
 nav ul li a {
-    padding: 20px;
+    padding: 0px;
     font-family: 'PT Sans', sans-serif;
     color: rgba(0, 0, 0, 1);
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
@@ -38,7 +38,7 @@ nav ul li a {
     
     text-decoration: none;
     display: block;
-    padding: 14px 40px 14px;
+    padding: 14px 35px 14px;
 }
 
 nav ul li a:hover {
