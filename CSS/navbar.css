@@ -10,8 +10,10 @@ nav {
     
 }
 
-logo {
+#logo {
     float: left;
+    padding-left: 0px;
+    padding-right: 10px;
     
 }
 

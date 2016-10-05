@@ -39,6 +39,7 @@ padding-top: 0px;
   #modal section {
     padding: 10px 30px; 
     font-size: 18px;
-    line-height: 175%;
+    line-height: 200%;
     color: #333;
+    text-align: left;
   }
