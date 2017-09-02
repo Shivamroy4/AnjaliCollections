@@ -42,12 +42,19 @@ padding-top: 0px;
     line-height: 200%;
     color: #333;
     text-align: left;
+
   }
 
   #modal img {
     float: left;
     padding-right: 10px;
-    padding-top: 24px;
+    padding-top: 10px;
     padding-left: 10px;
-    padding-bottom: 24px;
+    padding-bottom: 10px;
+    border-radius: 65px;
+    border: 1px solid #CCC;
+    box-shadow: 0 1px 5px #CCC;
+   
   }
+
+
